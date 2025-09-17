@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | NFT preview card component</title>
+  
+  <link rel="stylesheet" href="./scss/style.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+
+<body>
+  
+  <main 
+  class="
+  [composition] [ flex flex-col justify-center align-center ]
+  [utility] [ bg-blue-950 ]
+  "
+  >
+  
+    <article 
+    class="
+    [composition] [ flex flex-col flex-gap-2 ]
+    [utility] [ bg-blue-900 padding-2 border-radius-1 ]
+    [block] [ card ]
+    "
+    >
+      
+      <header
+      class="
+      [utility] [ border-radius-2 ]
+      [block] [ box ]
+      "
+      >
+        
+        <img 
+        class="
+        [utility] [ border-radius-2 ]
+        [block] [ box__img ]
+        " 
+        src="./images/image-equilibrium.jpg" 
+        alt="equilibrium" 
+        />
+        
+        <div 
+        class="
+        [utility] [ border-radius-2 ]
+        [block] [ box__hover ]
+        "
+        >
+        </div>
+        
+      </header>
+      
+      <section class="[composition] [ flex flex-col flex-gap-1 ]">
+
+        <h1 class="[utility] [ font-outfit clr-white clr-hover-cyan fw-500 ]">
+          Equilibrium #3429
+        </h1>
+  
+        <p class="[utility] [ font-outfit clr-blue fs-2 fw-300 ]">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+  
+        <div class="[composition] [ flex flex-row justify-sb ]">
+
+          <div class="[composition] [ flex flex-row align-center flex-gap-0 ]">
+
+            <img 
+            class="[block] [ ether__img ]"
+            src="./images/icon-ethereum.svg" 
+            alt="ethereum" 
+            />
+            
+            <p class="[utility] [ font-outfit clr-cyan fs-2 fw-600 ]">
+              0.041 ETH
+            </p>
+            
+          </div>
+          
+          <div
+          class="
+          [composition] [ flex flex-row align-center flex-gap-0 ]
+          [block] [ time ]
+          "
+          >
+            <img 
+            class="[block] [ time__img ]"
+            src="./images/icon-clock.svg" 
+            alt="time" 
+            />
+            
+            <p class="[utility] [ font-outfit clr-blue fs-2 fw-400 ]">
+              3 days left
+            </p>
+          
+          </div>
+    
+        </div>
+        
+        <footer
+        class="
+        [composition] [ flex flex-row align-center flex-gap-1 ]
+        [utility] [ padding-bs-1 border-top ]
+        [block] [ creator ]
+        ">
+          
+          <img 
+          class="
+          [utility] [ border border-circle ]
+          [block] [ creator__img ]
+          "
+          src="./images/image-avatar.png" 
+          alt="avatar" 
+          />
+          
+          <p class="[utility] [ font-outfit clr-blue fs-1 fw-300 ]">
+            Creation of 
+            <strong class="[utility] [ font-outfit clr-white clr-hover-cyan fs-1 fw-400 ]">
+              Jules Wyvern
+            </strong>
+          </p>
+
+        </footer>
+      </section>
+    </article>
+  </main>
+  
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Rokuroo7</a>.
+  </footer>
+  
+</body>
+</html>
