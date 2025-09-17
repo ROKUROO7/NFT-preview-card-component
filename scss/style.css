@@ -80,7 +80,7 @@ h1 {
   color: hsl(215, 51%, 70%);
 }
 
-.clr-hover-cyan:hover {
+.clr-hover-cyan:hover, .clr-hover-cyan:focus, .clr-hover-cyan:active {
   cursor: pointer;
   color: hsl(178, 100%, 50%);
 }
@@ -136,7 +136,7 @@ h1 {
   top: 0;
   left: 0;
 }
-.box__hover:hover {
+.box__hover:hover, .box__hover:focus, .box__hover:active {
   cursor: pointer;
   background-image: url(../images/icon-view.svg);
   background-repeat: no-repeat;

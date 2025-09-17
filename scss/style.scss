@@ -119,7 +119,7 @@ h1 {
 } 
 
 .clr-hover {
-  &-cyan:hover {
+  &-cyan:hover, &-cyan:focus, &-cyan:active {
     cursor: pointer;
     color: $clr-primary-cyan;
   }
@@ -185,7 +185,7 @@ h1 {
     top: 0;
     left: 0;
   
-    &:hover {
+    &:hover, &:focus, &:active {
       cursor: pointer;
       background-image: url(../images/icon-view.svg);
       background-repeat: no-repeat;
