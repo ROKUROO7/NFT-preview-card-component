@@ -135,13 +135,15 @@ h1 {
   position: absolute;
   top: 0;
   left: 0;
-}
-.box__hover:hover, .box__hover:focus, .box__hover:active {
   cursor: pointer;
   background-image: url(../images/icon-view.svg);
   background-repeat: no-repeat;
   background-position: 50%;
   background-color: hsla(178, 100%, 50%, 0.4);
+  opacity: 0;
+}
+.box__hover:hover, .box__hover:focus, .box__hover:active {
+  opacity: 1;
 }
 
 .creator {

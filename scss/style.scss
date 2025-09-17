@@ -184,13 +184,15 @@ h1 {
     position: absolute;
     top: 0;
     left: 0;
-  
+    cursor: pointer;  
+    background-image: url(../images/icon-view.svg);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-color: $clr-primary-cyan-low;
+    opacity: 0;
+
     &:hover, &:focus, &:active {
-      cursor: pointer;
-      background-image: url(../images/icon-view.svg);
-      background-repeat: no-repeat;
-      background-position: 50%;
-      background-color: $clr-primary-cyan-low;
+      opacity: 1;
     }
   }
 }

@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/nft-preview-card-using-cube-css-MaHIMUNDmq](https://www.frontendmentor.io/solutions/nft-preview-card-using-cube-css-MaHIMUNDmq)
 - Live Site URL: [https://rokuroo7.github.io/NFT-preview-card-component/](https://rokuroo7.github.io/NFT-preview-card-component/)
 
 ## My process
